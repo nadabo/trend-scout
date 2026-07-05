@@ -97,7 +97,7 @@ export default function Home() {
               {loading ? "Analyzing Matrix..." : "Generate Influential Strategy"}
             </button>
 
-            {statusMessage && (
+            {statusMessage  && (
               <p className="text-center text-xs tracking-wider text-[#8e9299] italic mt-2">{statusMessage}</p>
             )}
           </div>
