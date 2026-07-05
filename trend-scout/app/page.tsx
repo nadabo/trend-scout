@@ -112,7 +112,7 @@ export default function Home() {
           {!result && !loading && (
             <div className="h-64 flex flex-col items-center justify-center border border-dashed border-[#37393d] rounded-lg p-6 text-center">
               <p className="text-sm tracking-wider text-[#8e9299]">Awaiting execution commands.</p>
-              <p className="text-xs tracking-widest text-[#c5a880] uppercase mt-2">Initialize your daily trend analysis</p>
+              <p className="text-xs tracking-widest text-[#c5a880] uppercase mt-2">Initialize your best daily trend analysis</p>
             </div>
           )}
 
